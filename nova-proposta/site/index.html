@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Página Principal</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html">Página Inicial</a>
+      <div class="dropdown">
+	<button class="dropbtn">Equipamentos</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     id="list-equi"
+	     onclick="loadEquipamento()">Listar</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Produtos</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     id="cads-prod"
+	     onclick="loadCadProd()">Cadastrar</a>
+	  <a href="#"
+	     id="list-prod"
+	     onclick="loadListaProd()">Listar</a>
+	  <a href="#"
+	     id="pesq-prod"
+	     onclick="loadPesqProd()">Pesquisar</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Clientes</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     id="cads-clie"
+	     onclick="loadCadCli()">Cadastrar</a>
+	  <a href="#"
+	     id="pesq-clie"
+	     onclick="loadPesqCli()">Pesquisar</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Bandas</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     id="cads-band"
+	     onclick="loadCadBand()">Cadastrar</a>
+	  <a href="#"
+	     id="pesq-band"
+	     onclick="loadPesqBand()">Pesquisar</a>
+	  <a href="#"
+	     id="cads-hora-band"
+	     onclick="loadAgenHora()">Agendar horário</a>
+	  <a href="#"
+	     id="list-hora-band"
+	     onclick="loadListHora()">Listar horários</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Horários</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     id="cads-hora"
+	     onclick="loadAgenHora">Cadastrar</a>
+	  <a href="#"
+	     id="ocup-hora"
+	     onclick="loadListHora()">Ocupados</a>
+	  <a href="#"
+	     id="disp-hora"
+	     onclick="loadListHora()">Disponíveis</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Funcionários</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     id="list-func"
+	     onclick="loadListFunc()">Listar</a>
+	  <a href="#"
+	     id="pesq-func"
+	     onclick="loadPesqFunc()">Pesquisar</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Financeiro</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     id="list-rece"
+	     onclick="loadReceita()">Receitas</a>
+	  <a href="#"
+	     id="list-desp"
+	     onclick="loadDespesa()">Despesas</a>
+	  <a href="#"
+	     id="list-renda"
+	     onclick="loadRenda()">Renda</a>
+	</div>
+      </div>
+    </div>
+    <br>
+    <div id="div">
+    </div>
+    <script src="jquery.js">
+    </script>
+  </body>
+</html>
+
+	  
