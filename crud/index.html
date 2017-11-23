@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
+    <title id="title">Página Principal</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="dropdown">
+	<button class="dropbtn">Produtos
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     onclick="loadCadCatProd()">Cadastrar categoria</a>
+	  <a href="#"
+	     onclick="loadListCatProd()">Listar categorias</a>
+	  <hr>
+	  <a href="#"
+	     onclick="loadCadMarca()">Cadastrar marca</a>
+	  <a href="#"
+	     onclick="loadListMarca()">Listar marcas</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Clientes
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#"
+	     onclick="loadCadCliente()">Cadastrar cliente</a>
+	  <a href="#"
+	     onclick="loadListCliente()">Listar clientes</a>
+	</div>
+      </div>
+    </div>
+    <div id="div">
+      
+    </div>
+    <script src="jquery.js">
+    </script>
+  </body>
+</html>
+
+	  
