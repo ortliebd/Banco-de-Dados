@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title id="title">Página Principal</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="dropdown">
+	<button class="dropbtn">Bandas
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#" onclick="loadPesqBanda()">Pesquisar banda</a>
+	  <a href="#" onclick="loadCadBanda()">Cadastrar banda</a>
+	  <a href="#" onclick="loadListBanda()">Listar bandas</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Caixa
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#" onclick="loadCadRecurso()">Cadastrar recurso</a>
+	  <hr>
+	  <a href="#" onclick="loadCadAplicacao()">Cadastrar aplicação</a>
+	</div>
+      </div>    
+      <div class="dropdown">
+	<button class="dropbtn">Clientes
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#" onclick="loadPesqCliente()">Pesquisar cliente</a>
+	  <a href="#" onclick="loadCadCliente()">Cadastrar cliente</a>
+	  <a href="#" onclick="loadListCliente()">Listar clientes</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Financeiro
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#" onclick="loadAplicacao()">Aplicações</a>
+	  <hr>
+	  <a href="#" onclick="loadCreditos()">Créditos</a>
+	  <a href="#" onclick="loadDebitos()">Débitos</a>
+	  <hr>
+	  <a href="#" onclick="loadDevedores()">Devedores</a>
+	  <hr>
+	  <a href="#" onclick="loadLancamentos()">Lançamentos futuros</a>
+	  <hr>
+	  <a href="#" onclick="loadRendaBruta()">Renda bruta</a>
+	  <a href="#" onclick="loadRendaLiquida()">Renda liquida</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Lançamentos
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#" onclick="loadCadReceita()">Cadastrar receita</a>
+	  <hr>
+	  <a href="#" onclick="loadCadDespesa()">Cadastrar despesa</a>
+	</div>
+      </div>
+      <div class="dropdown">
+	<button class="dropbtn">Produtos
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="#" onclick="loadPesqProduto()">Pesquiar produto</a>
+	  <a href="#" onclick="loadCadProduto()">Cadastrar produto</a>
+	  <a href="#" onclick="loadListProduto()">Listar produtos</a>
+	  <hr>
+	  <a href="#" onclick="loadPesqCategoria()">Pesquisar categoria</a>
+	  <a href="#" onclick="loadCadCategoria()">Cadastrar categoria</a>
+	  <a href="#" onclick="loadListCategoria()">Listar categorias</a>
+	  <hr>
+	  <a href="#" onclick="loadPesqMarca()">Pesquisar marca</a>
+	  <a href="#" onclick="loadCadMarca()">Cadastrar marca</a>
+	  <a href="#" onclick="loadListMarca()">Listar marcas</a>
+	</div>
+      </div>
+    </div>
+    <div id="div">
+    </div>
+    <script src="src/script/onLoad.js"></script>
+    <script src="src/script/onSubmit.js"></script>
+    <script src="src/script/onReload.js"></script>
+  </body>
+</html>
+
+	  

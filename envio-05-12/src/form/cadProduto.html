@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html><body>
+<div class="container">
+  <form action="#" method="post">
+    <div class="row">
+      <div class="col-25">
+        <label>Código de barras</label>
+      </div>
+      <div class="col-75">
+	<input type="text" id="catProd" name="catProd" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label>Descrição</label>
+      </div>
+      <div class="col-75">
+	<input type="text" id="desc" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label>Preço de compra</label>
+      </div>
+      <div class="col-75">
+	<input type="text" id="precoCompra" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label>Preço para venda</label>
+      </div>
+      <div class="col-75">
+	<input type="text" id="precoVenda" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row">
+	<div class="col-25">
+          <label>Quantidade em estoque</label>
+	</div>
+	<div class="col-75">
+	  <input type="text" id="qtd" required>
+	</div>
+      </div>    
+      <div class="col-25">
+        <label>Categoria</label>
+      </div>
+      <div class="col-75">
+	<script>
+	  document.getElementById("title").innerHTML = "produto";
+	</script>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit"  onclick="submitCategoria()" value="Cadastrar">
+      <input type="button" value="Limpar">
+    </div>
+  </form>
+</div>
+</body></html>
